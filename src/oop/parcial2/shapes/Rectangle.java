@@ -22,5 +22,9 @@ public class Rectangle extends Shape{
     public double getPerimeter(){
         return (2*base) + (2*height);
     }
+    public String toString(){
+        return "█";
+    }
+
 
 }

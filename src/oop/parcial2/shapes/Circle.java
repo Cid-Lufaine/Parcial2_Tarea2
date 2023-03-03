@@ -16,4 +16,8 @@ public class Circle extends Shape{
     public double getPerimeter(){
         return Math.PI*radio*2;
     }
+    public String toString(){
+        return "○";
+    }
+
 }

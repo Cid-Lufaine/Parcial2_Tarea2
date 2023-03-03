@@ -21,4 +21,7 @@ public class Square extends Shape {
 
         return side*4;
     }
+    public String toString(){
+        return "■";
+    }
 }

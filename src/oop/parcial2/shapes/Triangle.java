@@ -28,5 +28,9 @@ public class Triangle extends Shape{
         // es necesario conocer mas valores ya sean los lados o los angulos entre ellos
         return perimetro;
     }
+    public String toString(){
+        return "▲";
+    }
+
 
 }
